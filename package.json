@@ -24,7 +24,6 @@
   "license": "MIT",
   "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
   "devDependencies": {
-    "@argos-ci/cypress": "^2.0.4",
     "cypress": "^9.5.1",
     "playwright": "^1.44.1"
   }

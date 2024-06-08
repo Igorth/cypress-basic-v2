@@ -19,8 +19,6 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         cy.contains('button', 'Enviar').click()
 
         cy.get('.success').should('be.visible')
-
-        cy.argosScreenshot("preencher dados");
     })
 
     it('exibe mensagem de erro ao submeter o formulário com um email com formatação inválida', function() {
