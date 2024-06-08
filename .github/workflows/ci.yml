@@ -10,3 +10,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+      # Command to upload screenshots to Argos
+      - name: Upload screenshots to argos-ci.com
+        uses: npx @argos-ci/cli cypress/screenshots
